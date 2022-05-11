@@ -100,16 +100,27 @@
      100000000000000000000
      ```
 
-  4. 脚本部署（scripts）
+  4. #### 脚本部署（scripts）
 
      ```
      brownie run scripts\token.py
      ```
 
-  5. 测试（tests）
+  5. #### 测试（tests）
 
      ```
      brownie test
+     ```
+
+  6. 安装合约包
+
+     ```
+     brownie pm install OpenZeppelin/openzeppelin-contracts@4.6.0
+     默认安装位置 C:\Users\ASUS\.brownie\packages
+     ```
+
+     ```
+     brownie pm list
      ```
 
      
@@ -136,7 +147,7 @@
     C:\Users\ASUS\.solcx\solc-v0.8.10 
     ```
 
-  - qw
+  - 
 
   
 

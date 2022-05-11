@@ -3,3 +3,8 @@
 reports:
   exclude_contracts:
     - SafeMath
+
+compiler:
+    solc:
+        remappings:
+          - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.6.0"
